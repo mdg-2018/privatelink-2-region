@@ -1,4 +1,5 @@
 {
+  "name":"foo",
   "backupEnabled" : false,
   "biConnector" : {
     "enabled" : false,
