@@ -1,5 +1,5 @@
 {
-  "name":"foo",
+  "name":"new-cluster",
   "backupEnabled" : false,
   "biConnector" : {
     "enabled" : false,
