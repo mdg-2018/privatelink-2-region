@@ -1,6 +1,8 @@
 How to deploy an Atlas Cluster across three regions while using privatelink endpoints in only two regions.
 ===
 
+# <b>This work flow is deprecated! Recent improvements to Atlas make all of the following stuff unnecessary.</b>
+
 ## Introduction
 In order for and Atlas cluster to be able to survive a regional outage, the cluster must be spread between three cloud provider regions. If the cluster is deployed in AWS and privatelink is used to establish a connection to the cluster, there needs to be a privatelink endpoint in each of the regions in which the cluster is deployed. This presents a problem for organizations that have infrastruture in two regions and for whom starting to use a third region is difficult from an administrative standpoint. This guide describes a method for creating an Atlas cluster that can survive a regional outage but only requires privatelink endpoints in two regions.
 
